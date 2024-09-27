@@ -1,0 +1,11 @@
+.home{
+
+    .big-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        padding: 0 65px;
+        flex-wrap: wrap;
+    }
+}

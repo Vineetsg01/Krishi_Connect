@@ -1,0 +1,48 @@
+.product-card {
+    margin-bottom: 50px;
+    text-align: center;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+
+        .price-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            .price {
+                color: green;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+            .mrp {
+                color: grey;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-decoration: line-through;
+            }
+
+            .discount {
+                color: rgb(226, 26, 26);
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+
+        .title {
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+        }
+    }
+
+    img {
+        height: 250px;
+    }
+}

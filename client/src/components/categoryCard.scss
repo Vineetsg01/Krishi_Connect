@@ -1,0 +1,37 @@
+.category-container {
+    margin-bottom: 30px;
+
+    .category {
+        display: flex;
+        border: 1px solid black;
+        padding: 10px 10px;
+        height: 230px;
+        font-size: 1.2rem;
+
+        gap: 30px;
+        width: 100%;
+
+        .left img {
+            height: 200px;
+            width: 200px;
+        }
+
+        .category-info .right_data {
+            margin-right: 30px;
+        }
+
+        .category-info #discount {
+            color: red;
+        }
+
+        .category-info .right_text {
+            font-weight: 600;
+        }
+
+        #tagline .right_text {
+            font-weight: 600;
+        }
+
+    }
+
+}

@@ -1,0 +1,237 @@
+.about {
+    .bg-image {
+        background-image: url(https://vagen-store-demo.myshopify.com/cdn/shop/files/collection.jpg?v=1692931735);
+        background-size: cover;
+        background-position: center;
+        padding: 150px 0 130px;
+        height: 65vh;
+    }
+
+    .bg-image .text {
+        text-align: center;
+        font-size: 5rem;
+        color: aliceblue;
+        font-weight: 600;
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+
+    // our story
+    .our-story {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 80px 80px;
+    }
+
+    .our-story .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 450px;
+        font-family: "Roboto", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+
+
+    .our-story .tagline {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+
+    .our-story .tagline .line {
+        background-color: green;
+        height: 3.5px;
+        width: 50px;
+    }
+
+
+
+    .our-story .image img {
+        height: 450px;
+        width: 450px;
+        transition: all 2s;
+    }
+
+    .image img:hover {
+        transform: scale(0.9);
+    }
+
+
+    // Who we are
+    .who-we-are {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 80px 80px;
+    }
+
+    .who-we-are .image img {
+        height: 450px;
+        width: 450px;
+        transition: all 2s;
+    }
+
+
+    .who-we-are .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 450px;
+        font-family: "Roboto", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .who-we-are .tagline .line {
+        background-color: green;
+        height: 3.5px;
+        width: 50px;
+    }
+
+    .who-we-are .tagline {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+
+    // design-innovation-journey
+    .design-innovation-journey {
+        background-image: url(https://vagen-store-demo.myshopify.com/cdn/shop/files/about3.jpg?v=1692931735);
+        min-height: 500px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .design {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 10px;
+    }
+
+    .design img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .design .line {
+        background-color: rgb(176, 172, 172);
+        height: 2px;
+        width: 60px;
+    }
+
+    .innovation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 10px;
+    }
+
+    .innovation img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .innovation .line {
+        background-color: rgb(176, 172, 172);
+        height: 2px;
+        width: 60px;
+    }
+
+    .journey {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 10px;
+    }
+
+    .journey img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .journey .line {
+        background-color: rgb(176, 172, 172);
+        height: 2px;
+        width: 60px;
+    }
+
+    // Reviews
+    .happy-clients {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+
+    .happy-clients h2 {
+        font-weight: 700;
+        font-size: 55px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .reviews {
+
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        font-size: 14px;
+        font-family: "Roboto", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .reviews .checked {
+        color: orange;
+    }
+
+    .review {
+        border: 0.5px solid rgb(189, 184, 184);
+        padding: 15px 15px;
+        border-radius: 4px;
+        transition: box-shadow .3s;
+        cursor: pointer;
+    }
+
+    .review:hover {
+        box-shadow: 0 0 15px rgba(33, 33, 33, .2);
+    }
+
+    .reviews .review .client-info img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-bottom: 6px;
+    }
+}

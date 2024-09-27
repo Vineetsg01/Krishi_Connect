@@ -1,0 +1,144 @@
+.contact {
+    .bg-image {
+        background-image: url(https://vagen-store-demo.myshopify.com/cdn/shop/files/collection.jpg?v=1692931735);
+        background-size: cover;
+        background-position: center;
+        padding: 150px 0 130px;
+        height: 65vh;
+    }
+
+    .bg-image .text {
+        text-align: center;
+        font-size: 5rem;
+        color: aliceblue;
+        font-weight: 600;
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .address-map {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        padding: 50px 50px;
+        gap: 20px;
+    }
+
+    .address-map .address {
+        width: 50%;
+
+        .contact-info {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            font-family: "Roboto", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        .head {
+            font-weight: 600;
+            font-size: 3rem;
+            margin-bottom: 30px;
+            font-family: "Roboto", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+
+        }
+
+        .box {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            margin-bottom: 20px;
+
+            .icon {
+                margin-right: 30px;
+            }
+
+            .text p {
+                color: gray;
+            }
+        }
+    }
+
+    .contact-form {
+        .line {
+            background-color: green;
+            height: 2px;
+            width: 90px;
+            margin-left: 48%;
+            margin-bottom: 30px;
+        }
+
+        margin-bottom: 30px;
+
+        h2 {
+            font-weight: 600;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+
+            label {
+                color: black;
+                font-size: 1.4rem;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+
+            .input {
+                display: flex;
+                gap: 30px;
+
+
+                input {
+                    width: 45vw;
+                    border: gray 1px solid;
+                    height: 60px;
+                    margin-bottom: 30px;
+                    padding: 10px 10px;
+                }
+            }
+
+            .text-area {
+                display: flex;
+                flex-direction: column;
+
+                textarea {
+                    width: 92vw;
+                    border: gray 1px solid;
+                    height: 350px;
+                    margin-bottom: 30px;
+                    padding: 10px 10px;
+                }
+            }
+
+            .button {
+                text-align: center;
+
+                .btn {
+                    background-color: black;
+                    color: white;
+                    cursor: pointer;
+                    padding: 18px 80px;
+                    font-size: 1.3rem;
+                    margin-bottom: 20px;
+                    transition: all 0.3s ease;
+
+                    &:hover{
+                        background-color: #1cba1c;
+                    }
+                    
+                }
+
+                
+            }
+        }
+    }
+}

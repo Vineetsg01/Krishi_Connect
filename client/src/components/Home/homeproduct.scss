@@ -1,0 +1,89 @@
+.home-product {
+    // background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 0 60px;
+
+    .head {
+        font-family: Jost;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #111;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .head:before {
+        content: "";
+        width: 50%;
+        height: 2px;
+        background: #41b93c;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translate(-50%);
+        bottom: 0;
+    }
+
+    .btn {
+        margin: 20px 15px 60px 0;
+        border: 1px solid rgb(28, 186, 28);
+        color: rgb(28, 186, 28);
+        padding: 8px 20px;
+        transition: all 0.3s ease;
+
+        &:hover{
+            background-color:rgb(28, 186, 28) ;
+            color: white;
+        }
+    }
+
+    .bold{
+        background-color:rgb(28, 186, 28) ;
+        color: white;
+        transition: all 0.3s ease;
+
+        &:hover{
+            background-color:rgb(28, 186, 28) ;
+        }
+    }
+
+    .poster {
+        background: url('https://splashythemes.com/opencart/OPC02/OPC020099/image/catalog/demo/banners/offer-banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        margin-bottom: 50px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .big {
+            font-weight: 500;
+            font-size: 2.2rem;
+            font-family: "Lora", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            margin-left: 50px;
+        }
+
+        .small {
+            font-weight: 400;
+            font-size: 1.3rem;
+            font-family: "Lora", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            margin-left: 50px;
+        }
+    }
+}

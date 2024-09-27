@@ -1,0 +1,15 @@
+.secondary-navbar {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    Button{
+        transition: all 0.3s ease;
+
+        &:hover{
+            border: 1px solid white;
+        }
+    }
+
+}
